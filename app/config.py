@@ -37,8 +37,8 @@ class MeetingConfiguration:
         max_conversation_turns (int): Maximum conversation turns allowed.
     """
 
-    orchestrator_model: str = "gemini-1.5-flash"
-    persona_model: str = "gemini-1.5-flash"
+    orchestrator_model: str = "gemini-2.5-flash"
+    persona_model: str = "gemini-2.5-flash"
     max_conversation_turns: int = 10
 
 
