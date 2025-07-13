@@ -42,4 +42,5 @@ class MeetingConfiguration:
     max_conversation_turns: int = 10
 
 
+
 config = MeetingConfiguration() 
